@@ -380,7 +380,7 @@ export default function Contact() {
     setFormStatus({ submitted: false, error: false, sending: true });
 
     try {
-      const response = await fetch("https://formsubmit.co/kaveetharandili2002@gmail.com", {
+      const response = await fetch("https://formsubmit.co/c32eaffef35d617945089807822cb149", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
