@@ -1818,7 +1818,7 @@ function Profile() {
               { label: "GitHub", href: "https://github.com/Kavi20021216", external: true },
               { label: "LinkedIn", href: "https://www.linkedin.com/in/kaveetha-randili-824715378/", external: true },
               { label: "Download CV", href: ResumePDF, download: "Kaveetha_Randili_CV.pdf" },
-              { label: "Email", href: "mailto:kaveetha@example.com" },
+              { label: "Email", href: "mailto:kaveetharandili2002@example.com" },
             ].map(({ label, href, external, download }, idx) => (
               <motion.a
                 key={label}
