@@ -243,6 +243,9 @@
 import React, { useEffect, useMemo, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import skyrekLogo from "../assets/skyrek-logo.png"; // make sure this one exists
+import awsLogo from "../assets/Aws-logo.png";
+
+
 
 export default function Certifications({ items }) {
   const sectionRef = useRef(null);
@@ -258,13 +261,25 @@ export default function Certifications({ items }) {
           holder: "kaveetha randili",
           org: "SKYREK (PVT) LTD",
           orgShort: "Skyrek",
-          issued: "Issued Nov 5, 2025",
-          verifyUrl: "https://certificate.skyrek.com/",
+          issued: "Issued Nov 05, 2025",
+          verifyUrl: "https://certificate.skyrek.com/student/certificates/completion",
           orgLogo: skyrekLogo,
           // If you later put a screenshot under /public/certificates/skyrek-cert.png,
           // uncomment the next line:
           // preview: "/certificates/skyrek-cert.png",
         },
+        {
+          title: "AWS Cloud Practitioner Essentials",
+          holder: "kaveetha randili",
+          org: "AWS Training & Certification",
+          orgShort: "AWS",
+          issued: "Issued Dec 06, 2025",
+          verifyUrl:"https://drive.google.com/file/d/1Uf3c85DolmdE4DYZXcowtwdNgOZxewdz/view?usp=drive_link",
+          orgLogo: awsLogo,
+          // If you later put a screenshot under /public/certificates/skyrek-cert.png,
+          // uncomment the next line:
+          // preview: "/certificates/skyrek-cert.png",
+        }
       ],
     [items]
   );

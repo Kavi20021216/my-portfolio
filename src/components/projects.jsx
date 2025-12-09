@@ -271,8 +271,8 @@ function Projects() {
         'A production-ready MERN storefront for a CBD cosmetics brand. Features include product catalog & filters, cart/checkout, JWT auth, role-based admin, order tracking, and responsive UI. Built with React + Vite, Node/Express REST APIs, and MongoDB.',
       liveDemo: 'https://cbc-frontend-topaz.vercel.app',
       links: [
-        { label: 'Frontend Code', href: 'https://github.com/Kavi20021216/cbc-frontend.git' },
-        { label: 'Backend Code', href: 'https://github.com/Kavi20021216/cbc-backend.git' },
+        { label: 'Frontend Source Code', href: 'https://github.com/Kavi20021216/cbc-frontend.git' },
+        { label: 'Backend Source Code', href: 'https://github.com/Kavi20021216/cbc-backend.git' },
       ],
     },
     {
